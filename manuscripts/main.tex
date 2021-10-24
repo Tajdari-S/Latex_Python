@@ -11,22 +11,8 @@
 \usepackage{graphicx}
 \usepackage{amsthm,amssymb}
 \usepackage{subfigure}
+\usepackage{tabularx}
 \begin{document}
-    \begin{figure}[ht]
-        \begin{center}
-            \subfigure [Number of Operations] {\includegraphics[width=0.49\columnwidth]{figures/experiments_results_figures/mesh/mesh_num_operations}\label{fig:mesh_op}}
-            \subfigure [Update Completion Time] {\includegraphics[width=0.49\columnwidth]{figures/experiments_results_figures/mesh/mesh_time}\label{fig:mesh_time}}
-        \end{center}
-        \caption{Mesh}
-        \label{fig:Mesh}
-    \end{figure}
-    \begin{figure}[ht]
-        \begin{center}
-            \subfigure [Number of Operations] {\includegraphics[width=0.49\columnwidth]{figures/experiments_results_figures/swan/swan_num_operations}\label{fig:swan_op}}
-            \subfigure [Update Completion Time] {\includegraphics[width=0.49\columnwidth]{figures/experiments_results_figures/swan/swan_time}\label{fig:swan_time}}
-        \end{center}
-        \caption{SWAN}
-        \label{fig:SWAN}
-    \end{figure}
-
+    \import{}{tables/abbreviation.tex}
+    \import{}{sections/results.tex}
 \end{document}
